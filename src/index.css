@@ -21,7 +21,7 @@ code {
 
 .calcultor {
   position: relative;
-  top: 200px;
+  top: 10px;
   width: 886px;
   height: auto;
   margin: auto;
@@ -43,10 +43,10 @@ code {
   padding: 0.2% 2%;
 }
 button {
-  margin: 0px 10px;
+  margin: 2px 10px;
   width: 65px;
-  height: 55px;
-  padding: 1% 2%;
+  height: 60px;
+  padding: 10px 10px;
   border-radius: 94px;
   border: none;
 }
@@ -54,25 +54,34 @@ button:focus {
   outline: 0;
 }
 .yellowColor {
-  background-color: #f0ad4e;
+  background-color: #cf9544;
   color: white;
   font-size: 20px;
 }
 .grayColor {
-  background-color: rgb(195, 194, 194);
+  background-color: rgb(168, 167, 167);
   color: white;
   font-size: 20px;
 }
 .gray1Color {
-  background-color: rgb(102, 102, 102);
+  background-color: rgb(56, 56, 56);
   color: white;
   font-size: 20px;
 }
 .gray2Color {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(22, 22, 22);
   color: white;
 }
 .zero {
   width: 150px;
   text-align: left;
+}
+
+.head {
+  position: relative;
+  left: 0%;
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 3px 8px 10px whitesmoke;
 }
